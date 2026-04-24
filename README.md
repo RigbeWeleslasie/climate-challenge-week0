@@ -1,19 +1,30 @@
 
 # Climate Challenge Week 0
-## African Climate Trend Analysis — 10 Academy KAIM9
+## African Climate Trend Analysis - 10 Academy KAIM9
 
 ## Project Overview
 Exploratory analysis of historical climate data from Ethiopia, Kenya, Sudan, Tanzania, and Nigeria (2015–2026) to support Ethiopia's COP32 position paper.
 
 ## Folder Structure
 climate-challenge-week0/
-└──  .github/workflows/    # CI/CD pipeline
-└── notebooks/            # Jupyter notebooks for EDA
-└──  scripts/              # Python scripts
-└── src/                  # Source modules
-└──  tests/                # Unit tests
-└── requirements.txt      # Dependencies
-└──  README.md
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── notebooks/
+│   ├── init.py
+│   └── README.md
+├── scripts/
+│   ├── init.py
+│   └── README.md
+├── src/
+│   └── init.py
+├── tests/
+│   └── init.py
+├── .vscode/
+│   └── settings.json
+├── .gitignore
+├── requirements.txt
+└── README.md
 ## How to Reproduce the Environment
 
 ### 1. Clone the repository
