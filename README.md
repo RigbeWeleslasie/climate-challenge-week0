@@ -61,6 +61,4 @@ pip install -r requirements.txt
 
 ---
 
-## 👥 Team
-- **Facilitators:** Kerod, Mahbubah, Feven
-- **Program:** 10 Academy AI Mastery (KAIM9)
+
