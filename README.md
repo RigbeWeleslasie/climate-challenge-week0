@@ -7,24 +7,13 @@ Exploratory analysis of historical climate data from Ethiopia, Kenya, Sudan, Tan
 
 ## Folder Structure
 climate-challenge-week0/
-├── .github/
-│   └── workflows/
-│       └── ci.yml
-├── notebooks/
-│   ├── __init__.py
-│   └── README.md
-├── scripts/
-│   ├── __init__.py
-│   └── README.md
-├── src/
-│   └── __init__.py
-├── tests/
-│   └── __init__.py
-├── .vscode/
-│   └── settings.json
-├── .gitignore
-├── requirements.txt
-└── README.md
+└──  .github/workflows/    # CI/CD pipeline
+└── notebooks/            # Jupyter notebooks for EDA
+└──  scripts/              # Python scripts
+└── src/                  # Source modules
+└──  tests/                # Unit tests
+└── requirements.txt      # Dependencies
+└──  README.md
 ## How to Reproduce the Environment
 
 ### 1. Clone the repository
