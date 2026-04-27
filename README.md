@@ -15,14 +15,25 @@ climate-challenge-week0/
 │       └── unittests.yml
 ├── notebooks/
 │   ├── __init__.py
-│   └── README.md
+│   ├── README.md
+│   ├── ethiopia_eda.ipynb
+│   ├── kenya_eda.ipynb
+│   ├── sudan_eda.ipynb
+│   ├── tanzania_eda.ipynb
+│   ├── nigeria_eda.ipynb
+│   └── compare_countries.ipynb
 ├── scripts/
 │   ├── __init__.py
-│   └── README.md
+│   ├── README.md
+│   └── run_eda.py
 ├── src/
-│   └── __init__.py
+│   ├── __init__.py
+│   ├── data_loader.py
+│   ├── eda_utils.py
+│   └── comparison.py
 ├── tests/
-│   └── __init__.py
+│   ├── __init__.py
+│   └── test_data_loader.py
 ├── .vscode/
 │   └── settings.json
 ├── .gitignore
