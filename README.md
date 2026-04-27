@@ -13,7 +13,7 @@ The goal is to generate insights that support **Ethiopia's COP32 position paper*
 climate-challenge-week0/
 ├── .github/
 │   └── workflows/
-│       └── ci.yml
+│       └── unittests.yml
 ├── notebooks/
 │   ├── __init__.py
 │   └── README.md
@@ -54,11 +54,47 @@ pip install -r requirements.txt
 
 ---
 
-## Data
-- Data is sourced from the **NASA POWER** database.
-- Covers climate observations for five African countries.
-- Data files are excluded from version control using `.gitignore`.
+### 4. Run the EDA pipeline
+```bash
+python scripts/run_eda.py
+```
 
----
+### 5. Launch Jupyter notebooks
+```bash
+jupyter notebook
+```
+
+## Data
+Data sourced from NASA POWER database covering 5 African countries.
+- Ethiopia, Kenya, Sudan, Tanzania, Nigeria
+- Period: January 2015 - March 2026
+- 4,108 daily observations per country
+- Data files excluded from version control via .gitignore
+
+## Project Structure
+- `src/data_loader.py` - Data loading and cleaning functions
+- `src/eda_utils.py` - EDA visualization functions
+- `src/comparison.py` - Cross-country comparison functions
+- `scripts/run_eda.py` - Main pipeline script
+- `tests/test_data_loader.py` - Unit tests
+- `notebooks/` - Jupyter notebooks for each country EDA
+
+## CI/CD
+GitHub Actions workflow runs on every push to main:
+- Sets up Python 3.10
+- Installs all dependencies
+- Runs unit tests
+
+## Key Findings
+- Sudan has the highest mean temperature (28.8°C) with 250+ extreme heat days/year
+- Nigeria shows the most variable precipitation patterns
+- Ethiopia and Kenya show clear bimodal rainfall patterns
+- Kruskal-Wallis test confirms significant climate differences (p < 0.0001)
+- Sudan ranked #1 for climate vulnerability and priority finance needs
+
+## Team
+- Facilitators: Kerod, Mahbubah, Feven
+- Program: 10 Academy AI Mastery (KAIM9)
+- GitHub: https://github.com/RigbeWeleslasie/climate-challenge-week0
 
 
