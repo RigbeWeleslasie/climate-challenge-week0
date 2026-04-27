@@ -76,7 +76,7 @@ jupyter notebook
 
 ### 6. Run the Streamlit Dashboard
 ```bash
-streamlit run app/main.py
+python3 -m streamlit run app/main.py
 ```
 
 ## Data
