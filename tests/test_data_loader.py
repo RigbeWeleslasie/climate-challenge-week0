@@ -8,7 +8,6 @@ from src.data_loader import load_country_data
 
 def test_load_country_data():
     """Test that data loading works correctly."""
-    # Create a sample dataframe to simulate CSV
     sample_data = {
         'YEAR': [2015, 2015, 2015],
         'DOY': [1, 2, 3],
@@ -30,7 +29,7 @@ def test_load_country_data():
     assert result['T2M'].isna().sum() == 1
     assert 'Date' in result.columns
     assert 'Month' in result.columns
-    print("✅ test_load_country_data passed!")
+    print("test_load_country_data passed!")
 
 if __name__ == "__main__":
     test_load_country_data()
