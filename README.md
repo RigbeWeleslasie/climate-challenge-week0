@@ -2,9 +2,8 @@
 ## African Climate Trend Analysis (10 Academy KAIM9)
 
 ## Project Overview
-This project focuses on the exploratory analysis of historical climate data (2015–2026) from five African countries: **Ethiopia, Kenya, Sudan, Tanzania, and Nigeria**.
-
-The goal is to generate insights that support **Ethiopia's COP32 position paper**.
+Exploratory analysis of historical climate data from Ethiopia, Kenya, Sudan, Tanzania, and Nigeria (2015-2026) to support Ethiopia's COP32
+position paper as host of the United Nations Climate Change Conference in Addis Ababa in 2027.
 
 ---
 
