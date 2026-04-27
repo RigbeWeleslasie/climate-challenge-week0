@@ -74,6 +74,11 @@ python scripts/run_eda.py
 jupyter notebook
 ```
 
+### 6. Run the Streamlit Dashboard
+```bash
+streamlit run app/main.py
+```
+
 ## Data
 Data sourced from NASA POWER database covering 5 African countries.
 - Ethiopia, Kenya, Sudan, Tanzania, Nigeria
